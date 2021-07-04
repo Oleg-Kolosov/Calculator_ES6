@@ -6,7 +6,7 @@ class Calculator {
     }
 
     clearAllHistory() {
-        this.inputHistory.slice(0, -1);
+        this.inputHistory.splice(0, -1);
         this.updateInputDisplay();
         this.updateOutputDisplay('0');
     }
