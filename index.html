@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Calculator ES6</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="display">
+            <input type="text" id="history" disabled>
+            <output name="result" id="result" for="history">0</output>
+        </div>
+        <div id="keypad">
+            <button type="button" data-all-clear>AC</button>
+            <button type="button" data-backspace>C</button>
+            <button type="button" data-percent>%</button>
+            <button type="button" data-operator="+">+</button>
+
+            <button type="button" data-number="7">7</button>
+            <button type="button" data-number="8">8</button>
+            <button type="button" data-number="9">9</button>
+            <button type="button" data-operator="*">*</button>
+
+            <button type="button" data-number="4">4</button>
+            <button type="button" data-number="5">5</button>
+            <button type="button" data-number="6">6</button>
+            <button type="button" data-operator="/">/</button>
+
+            <button type="button" data-number="1">1</button>
+            <button type="button" data-number="2">2</button>
+            <button type="button" data-number="3">3</button>
+            <button type="button" data-operator="-">-</button>
+
+            <button type="button" data-negative>+ / -</button>
+            <button type="button" data-number="0">0</button>
+            <button type="button" data-decimal=".">.</button>
+            <button type="button" data-equals="=">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
